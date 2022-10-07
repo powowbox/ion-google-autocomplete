@@ -5,6 +5,18 @@ ion-google-autocomplete
 
 This is a simple directive for Ionic 1 that allows you to add an input text element that enables user to select a place from Google Places with its details in a convenient Ionic Modal
 
+# Change on this fork
+
+ Add attribute directives:
+  - closeButtonIconClass: the icon to use for the close button
+  - placeHolderText: self explainatory
+  - containerClassName: prefix all the css classes you want to change by the name set in this attribute. Use !important if needed.
+    - Example: to change the bar-header height, set containerClassName toaddress-input (for instance) and use the css rule:
+  
+  ```
+     .address-input.bar-header { height: 80px }
+  ```
+Replace button text by an icon
 # Demo
 <img src="https://s3.amazonaws.com/ionic-marketplace/ion-google-autocomplete/screenshot_4.gif" />
 
