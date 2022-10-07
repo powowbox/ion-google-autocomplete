@@ -22,7 +22,7 @@ Change:
   - Replace button text by an icon
 
 Fix:
-  - Add a delay before setting the focus to the input to let the time to the modal to fully display. It avoit to see the cusror moving while the modal is displaying.
+  - Add a delay before setting the focus to the input to let the time to the modal to fully display. It avoids to see the cusror moving while the modal is displaying.
 
 To install run
 ```
