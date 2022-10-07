@@ -11,10 +11,10 @@ This is a simple directive for Ionic 1 that allows you to add an input text elem
   - closeButtonIconClass: the icon to use for the close button
   - placeHolderText: self explainatory
   - containerClassName: prefix all the css classes you want to change by the name set in this attribute. Use !important if needed.
-    - Example: to change the bar-header height, set containerClassName toaddress-input (for instance) and use the css rule:
+    - Example: to change the bar-header height, set containerClassName to address-input (for instance) and use the css rule:
   
   ```
-     .address-input.bar-header { height: 80px }
+     .address-input.bar-header { height: 80px!important; }
   ```
 Replace button text by an icon
 # Demo
