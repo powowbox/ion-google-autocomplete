@@ -17,6 +17,11 @@ This is a simple directive for Ionic 1 that allows you to add an input text elem
      .address-input.bar-header { height: 80px!important; }
   ```
 Replace button text by an icon
+
+To install run
+```
+ bower install https://github.com/powowbox/ion-google-autocomplete.git --save
+```
 # Demo
 <img src="https://s3.amazonaws.com/ionic-marketplace/ion-google-autocomplete/screenshot_4.gif" />
 
