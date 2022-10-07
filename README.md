@@ -16,7 +16,8 @@ This is a simple directive for Ionic 1 that allows you to add an input text elem
   ```
      .address-input.bar-header { height: 80px!important; }
   ```
-Replace button text by an icon
+Change:  
+  - Replace button text by an icon
 
 To install run
 ```
