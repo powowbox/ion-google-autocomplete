@@ -7,6 +7,8 @@ This is a simple directive for Ionic 1 that allows you to add an input text elem
 
 # Changes in this fork
 
+This is mainly about adding ways to configure the search window.
+
  Add attribute directives:
   - closeButtonIconClass: the icon to use for the close button
   - placeHolderText: self explainatory
@@ -18,6 +20,9 @@ This is a simple directive for Ionic 1 that allows you to add an input text elem
   ```
 Change:  
   - Replace button text by an icon
+
+Fix:
+  - Add a delay before setting the focus to the input to let the time to the modal to fully display. It avoit to see the cusror moving while the modal is displaying.
 
 To install run
 ```
