@@ -92,8 +92,8 @@ angular.module('ion-google-autocomplete', [])
               $scope.search.error = null;
               $scope.search.suggestions = result;
             }, function(status) {
-
-              $scope.search.error = ($scope.errorMessageText || 'There was an error') + ' / '  + status;
+              $scope.search.error = ($scope.errorMessageText || 'There was an error') + ' / ' + status;
+              $scope.search.suggestions = null;
             });
           }
         });
