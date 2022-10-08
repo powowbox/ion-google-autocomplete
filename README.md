@@ -18,6 +18,8 @@ This is mainly about adding ways to configure the search window.
   ```
      .address-input.bar-header { height: 80px!important; }
   ```
+  - errorMessageText: the message to display in case of error. The default message is 'There was an error'.
+
 Change:  
   - Replace button text by an icon
 

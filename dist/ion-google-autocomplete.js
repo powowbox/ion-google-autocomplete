@@ -8,7 +8,8 @@ angular.module('ion-google-autocomplete', [])
         closeButtonIconClass: '@', //Optional
         placeHolderText: '@', //Optional
         containerClassName: '@', //Optional
-        onSelection: '&'//Optional
+        onSelection: '&',//Optional,
+        errorMessageText: '@' //Optional
       },
       link: function($scope, element) {
 
@@ -92,7 +93,7 @@ angular.module('ion-google-autocomplete', [])
               $scope.search.suggestions = result;
             }, function(status) {
 
-              $scope.search.error = "There was an error :( " + status;
+              $scope.search.error = ($scope.errorMessageText || 'There was an error') + ' / '  + status;
             });
           }
         });
